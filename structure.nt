@@ -22,8 +22,6 @@
 <http://example.com/pouch/CarriersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Carriers Pouch" .
 <http://example.com/pouch/CustomsPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://example.com/pouch/CustomsPouch> <http://schema.org/hasPart> <http://example.com/schema/Customclass> .
-<http://example.com/pouch/CustomsPouch> <http://schema.org/hasPart> <http://example.com/schema/Ghiblistudio> .
-<http://example.com/pouch/CustomsPouch> <http://schema.org/hasPart> <http://example.com/schema/Hassesclass1> .
 <http://example.com/pouch/CustomsPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://example.com/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Customs Pouch, you will find data typically from the following documents; TBD." .
 <http://example.com/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Customs Pouch" .
@@ -49,7 +47,6 @@
 <http://example.com/pouch/org/PanalpinaAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
 <http://example.com/pouch/org/PanalpinaAB> <http://www.w3.org/2000/01/rdf-schema#label> "Panalpina AB" .
 <http://example.com/pouch/RailPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://example.com/pouch/RailPouch> <http://schema.org/hasPart> <http://example.com/schema/BendTheSpoon> .
 <http://example.com/pouch/RailPouch> <http://schema.org/hasPart> <http://example.com/schema/RailPort> .
 <http://example.com/pouch/RailPouch> <http://schema.org/hasPart> <http://example.com/schema/RailroadEngine> .
 <http://example.com/pouch/RailPouch> <http://schema.org/hasPart> <http://example.com/schema/RailroadWaggon> .
@@ -61,12 +58,8 @@
 <http://example.com/pouch/ShippersPouch> <http://schema.org/hasPart> <http://example.com/schema/Consignment> .
 <http://example.com/pouch/ShippersPouch> <http://schema.org/hasPart> <http://example.com/schema/DangerousGoodsDeclaration> .
 <http://example.com/pouch/ShippersPouch> <http://schema.org/hasPart> <http://example.com/schema/EmptyGood> .
-<http://example.com/pouch/ShippersPouch> <http://schema.org/hasPart> <http://example.com/schema/LiamsClass> .
-<http://example.com/pouch/ShippersPouch> <http://schema.org/hasPart> <http://example.com/schema/NewClass> .
 <http://example.com/pouch/ShippersPouch> <http://schema.org/hasPart> <http://example.com/schema/Package> .
 <http://example.com/pouch/ShippersPouch> <http://schema.org/hasPart> <http://example.com/schema/ShippersInstruction> .
-<http://example.com/pouch/ShippersPouch> <http://schema.org/hasPart> <http://example.com/schema/TestClass> .
-<http://example.com/pouch/ShippersPouch> <http://schema.org/hasPart> <http://example.com/schema/ThisIsANewClass> .
 <http://example.com/pouch/ShippersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://example.com/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Shippers Pouch, you will find data typically from the following documents; Shippers Instruction, Packing List, Commercial Invoice, Certificate of Origin, Dangerous Goods Certificate, Health Certificate." .
 <http://example.com/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Shippers Pouch" .
