@@ -1,5 +1,6 @@
 <http://editor.zazuko.com/groups/> <http://schema.org/hasPart> <http://editor.zazuko.com/pouch/> .
 <http://editor.zazuko.com/groups/> <http://schema.org/hasPart> <http://editor.zazuko.com/updates/> .
+<http://editor.zazuko.com/groups/> <http://schema.org/hasPart> <http://editor.zazuko.com/letsnest/> .
 <http://editor.zazuko.com/groups/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://editor.zazuko.com/pouch/> <http://schema.org/hasPart> <http://editor.zazuko.com/pouch/CargoHandlersPouch> .
 <http://editor.zazuko.com/pouch/> <http://schema.org/hasPart> <http://editor.zazuko.com/pouch/CarriersPouch> .
@@ -80,3 +81,15 @@
 <http://editor.zazuko.com/updates/> <http://schema.org/hasPart> <http://editor.zazuko.com/pouch/TrackUpdatePouch> .
 <http://editor.zazuko.com/updates/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://editor.zazuko.com/updates/> <http://www.w3.org/2000/01/rdf-schema#label> "Updates" .
+<http://editor.zazuko.com/letsnest/> <http://schema.org/hasPart> <http://editor.zazuko.com/letsnest/container/> .
+<http://editor.zazuko.com/letsnest/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://editor.zazuko.com/letsnest/> <http://www.w3.org/2000/01/rdf-schema#label> "Let's Nest" .
+<http://editor.zazuko.com/letsnest/> <http://www.w3.org/2000/01/rdf-schema#comment> "This container is a group at the root" .
+<http://editor.zazuko.com/letsnest/container/> <http://schema.org/hasPart> <http://editor.zazuko.com/letsnest/container/container/> .
+<http://editor.zazuko.com/letsnest/container/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://editor.zazuko.com/letsnest/container/> <http://www.w3.org/2000/01/rdf-schema#label> "Container" .
+<http://editor.zazuko.com/letsnest/container/> <http://www.w3.org/2000/01/rdf-schema#comment> "This container is inside the 'letsnest' group" .
+<http://editor.zazuko.com/letsnest/container/container/> <http://schema.org/hasPart> <http://editor.zazuko.com/pouch/MaritimePouch> .
+<http://editor.zazuko.com/letsnest/container/container/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://editor.zazuko.com/letsnest/container/container/> <http://www.w3.org/2000/01/rdf-schema#label> "Deeper Container" .
+<http://editor.zazuko.com/letsnest/container/container/> <http://www.w3.org/2000/01/rdf-schema#comment> "This container is inside a container inside the 'letsnest' group" .
