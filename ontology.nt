@@ -445,11 +445,6 @@
 <http://editor.zazuko.com/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition. Here is one from shippingsolutions.com - The Shipper's Letter of Instruction helps to convey specific instructions from the exporter to his agent, usually an international freight forwarder." .
 <http://editor.zazuko.com/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#label> "Shippers Instruction" .
 <http://editor.zazuko.com/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://editor.zazuko.com/schema/LogisticsObject> .
-<http://editor.zazuko.com/schema/shippersInstructionShippersReference> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/ShippersInstruction> .
-<http://editor.zazuko.com/schema/shippersInstructionShippersReference> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://editor.zazuko.com/schema/shippersInstructionShippersReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://editor.zazuko.com/schema/shippersInstructionShippersReference> <http://www.w3.org/2000/01/rdf-schema#description> "The reference for the shippers instruction in the shippers system" .
-<http://editor.zazuko.com/schema/shippersInstructionShippersReference> <http://www.w3.org/2000/01/rdf-schema#label> "Reference" .
 <http://editor.zazuko.com/schema/size> <http://purl.org/dc/terms/modified> "2018-06-06T19:26:33.400Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://editor.zazuko.com/schema/size> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/EmptyGood> .
 <http://editor.zazuko.com/schema/size> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
