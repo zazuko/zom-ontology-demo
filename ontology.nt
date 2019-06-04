@@ -211,8 +211,10 @@
 <http://editor.zazuko.com/schema/height> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Package> .
 <http://editor.zazuko.com/schema/height> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
 <http://editor.zazuko.com/schema/height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://editor.zazuko.com/schema/height> <http://www.w3.org/2000/01/rdf-schema#comment> "How high is the sky" .
 <http://editor.zazuko.com/schema/height> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the height of this trade line item." .
 <http://editor.zazuko.com/schema/height> <http://www.w3.org/2000/01/rdf-schema#label> "Height" .
+<http://editor.zazuko.com/schema/height> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://editor.zazuko.com/schema/volume> .
 <http://editor.zazuko.com/schema/Humidity> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://editor.zazuko.com/schema/humidity> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/TrackUpdate> .
 <http://editor.zazuko.com/schema/humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
