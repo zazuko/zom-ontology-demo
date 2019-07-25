@@ -88,6 +88,7 @@
 <http://editor.zazuko.com/schema/cargoType> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Port> .
 <http://editor.zazuko.com/schema/cargoType> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#literal> .
 <http://editor.zazuko.com/schema/cargoType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://editor.zazuko.com/schema/cargoType> <http://www.w3.org/2000/01/rdf-schema#comment> "two" .
 <http://editor.zazuko.com/schema/cargoType> <http://www.w3.org/2000/01/rdf-schema#description> "Types of cargo handled by the port." .
 <http://editor.zazuko.com/schema/cargoType> <http://www.w3.org/2000/01/rdf-schema#label> "Cargo Type" .
 <http://editor.zazuko.com/schema/cargoVolume> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Port> .
