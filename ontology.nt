@@ -294,6 +294,7 @@
 <http://editor.zazuko.com/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#label> "Master AirWayBill" .
 <http://editor.zazuko.com/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://editor.zazuko.com/schema/LogisticsObject> .
 <http://editor.zazuko.com/schema/netWeight> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Package> .
+<http://editor.zazuko.com/schema/netWeight> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/TruckEngine> .
 <http://editor.zazuko.com/schema/netWeight> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
 <http://editor.zazuko.com/schema/netWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://editor.zazuko.com/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the net weight (mass) of this trade line item which excludes all packaging.." .
@@ -520,6 +521,9 @@
 <http://editor.zazuko.com/schema/transportAgreementLaneID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://editor.zazuko.com/schema/transportAgreementLaneID> <http://www.w3.org/2000/01/rdf-schema#description> "TBD." .
 <http://editor.zazuko.com/schema/transportAgreementLaneID> <http://www.w3.org/2000/01/rdf-schema#label> "TransportAgreementLaneID" .
+<http://editor.zazuko.com/schema/TruckEngine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://editor.zazuko.com/schema/TruckEngine> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the engine of a truck" .
+<http://editor.zazuko.com/schema/TruckEngine> <http://www.w3.org/2000/01/rdf-schema#label> "TruckEngine" .
 <http://editor.zazuko.com/schema/Vessel> <http://purl.org/dc/terms/modified> "2018-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://editor.zazuko.com/schema/vessel> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Vessel> .
 <http://editor.zazuko.com/schema/vessel> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#literal> .
