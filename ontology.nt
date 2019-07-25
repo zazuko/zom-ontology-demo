@@ -123,6 +123,13 @@
 <http://editor.zazuko.com/schema/consignor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://editor.zazuko.com/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#description> "The consignor party for this consignment." .
 <http://editor.zazuko.com/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#label> "Consignor" .
+<http://editor.zazuko.com/schema/Container> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://editor.zazuko.com/schema/Container> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the container on a truck" .
+<http://editor.zazuko.com/schema/Container> <http://www.w3.org/2000/01/rdf-schema#label> "Container" .
+<http://editor.zazuko.com/schema/containerLength> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Container> .
+<http://editor.zazuko.com/schema/containerLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://editor.zazuko.com/schema/containerLength> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the length of the container" .
+<http://editor.zazuko.com/schema/containerLength> <http://www.w3.org/2000/01/rdf-schema#label> "containerLength" .
 <http://editor.zazuko.com/schema/DangerousGoodsDeclaration> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://editor.zazuko.com/schema/DangerousGoodsDeclaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://editor.zazuko.com/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition of a package. Here is one from businessdictionary.com - Document(s) prepared by a consignor or shipper to certify that the dangerous goods being transported have been packaged, labeled, and declared in accordance with the standard international shipping regulations." .
@@ -293,6 +300,7 @@
 <http://editor.zazuko.com/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#comment> "TBD" .
 <http://editor.zazuko.com/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#label> "Master AirWayBill" .
 <http://editor.zazuko.com/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://editor.zazuko.com/schema/LogisticsObject> .
+<http://editor.zazuko.com/schema/netWeight> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Container> .
 <http://editor.zazuko.com/schema/netWeight> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Package> .
 <http://editor.zazuko.com/schema/netWeight> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/TruckEngine> .
 <http://editor.zazuko.com/schema/netWeight> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
