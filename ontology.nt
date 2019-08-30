@@ -262,6 +262,7 @@
 <http://editor.zazuko.com/schema/iolIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "The Internet of Logistics Identifier for a connected company." .
 <http://editor.zazuko.com/schema/iolIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "IOL Identifier" .
 <http://editor.zazuko.com/schema/length> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Package> .
+<http://editor.zazuko.com/schema/length> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Truck> .
 <http://editor.zazuko.com/schema/length> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
 <http://editor.zazuko.com/schema/length> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://editor.zazuko.com/schema/length> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the length of this trade line item." .
@@ -529,6 +530,9 @@
 <http://editor.zazuko.com/schema/transportAgreementLaneID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://editor.zazuko.com/schema/transportAgreementLaneID> <http://www.w3.org/2000/01/rdf-schema#description> "TBD." .
 <http://editor.zazuko.com/schema/transportAgreementLaneID> <http://www.w3.org/2000/01/rdf-schema#label> "TransportAgreementLaneID" .
+<http://editor.zazuko.com/schema/Truck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://editor.zazuko.com/schema/Truck> <http://www.w3.org/2000/01/rdf-schema#comment> "A Vehicle of a certain size that can transport containers" .
+<http://editor.zazuko.com/schema/Truck> <http://www.w3.org/2000/01/rdf-schema#label> "Truck" .
 <http://editor.zazuko.com/schema/TruckEngine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://editor.zazuko.com/schema/TruckEngine> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the engine of a truck" .
 <http://editor.zazuko.com/schema/TruckEngine> <http://www.w3.org/2000/01/rdf-schema#label> "TruckEngine" .
