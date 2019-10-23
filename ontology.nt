@@ -590,4 +590,4 @@
 <http://editor.zazuko.com/schema/z_gvt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://editor.zazuko.com/schema/z_gvt> <http://www.w3.org/2000/01/rdf-schema#description> "A device accelerometer z-axis reading submitted as a track update." .
 <http://editor.zazuko.com/schema/z_gvt> <http://www.w3.org/2000/01/rdf-schema#label> "Z-axis acceleration" .
-<http://schema.org/geo> <http://schema.org/domainIncludes> <http://editor.zazuko.com/pouch/TrackUpdate> .
+<http://schema.org/geo> <http://schema.org/domainIncludes> <http://editor.zazuko.com/domain/TrackUpdate> .
