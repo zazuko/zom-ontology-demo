@@ -510,6 +510,9 @@
 <http://editor.zazuko.com/schema/temperatureKelvin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://editor.zazuko.com/schema/temperatureKelvin> <http://www.w3.org/2000/01/rdf-schema#description> "A temperature reading in Kelvin submitted as a track update from a device." .
 <http://editor.zazuko.com/schema/temperatureKelvin> <http://www.w3.org/2000/01/rdf-schema#label> "Temperature in Kelvin" .
+<http://editor.zazuko.com/schema/TestClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://editor.zazuko.com/schema/TestClass> <http://www.w3.org/2000/01/rdf-schema#comment> "To test a class." .
+<http://editor.zazuko.com/schema/TestClass> <http://www.w3.org/2000/01/rdf-schema#label> "Test Class" .
 <http://editor.zazuko.com/schema/TrackUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://editor.zazuko.com/schema/TrackUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://editor.zazuko.com/schema/TrackUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of different sensoring data such as location, temperature, humidity, accelerometer, or pressure." .
