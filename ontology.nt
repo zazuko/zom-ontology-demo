@@ -104,6 +104,7 @@
 <http://editor.zazuko.com/schema/consignee> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Consignment> .
 <http://editor.zazuko.com/schema/consignee> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
 <http://editor.zazuko.com/schema/consignee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://editor.zazuko.com/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#comment> "I'm changing a property" .
 <http://editor.zazuko.com/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#description> "The consignee party for this consignment." .
 <http://editor.zazuko.com/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#label> "Consignee" .
 <http://editor.zazuko.com/schema/Consignment> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
