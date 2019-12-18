@@ -571,6 +571,12 @@
 <http://editor.zazuko.com/schema/volume> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross volume of this trade line item." .
 <http://editor.zazuko.com/schema/volume> <http://www.w3.org/2000/01/rdf-schema#description> "The volume related to the shippers instruction" .
 <http://editor.zazuko.com/schema/volume> <http://www.w3.org/2000/01/rdf-schema#label> "Volume" .
+<http://editor.zazuko.com/schema/weight> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Consignment> .
+<http://editor.zazuko.com/schema/weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://editor.zazuko.com/schema/weight> <http://www.w3.org/2000/01/rdf-schema#comment> "Weight of a consignment, in kg." .
+<http://editor.zazuko.com/schema/weight> <http://www.w3.org/2000/01/rdf-schema#label> "weight" .
+<http://editor.zazuko.com/schema/weight> <http://www.w3.org/2004/02/skos/core#example> "<http://post.fake/consignment/12> <http://editor.zazuko.com/schema/weight> \"12\"^^xsd:decimal;" .
+<http://editor.zazuko.com/schema/weight> <http://www.w3.org/2004/02/skos/core#note> "The **weight** …"^^<http://media-type.described.at/text/markdown> .
 <http://editor.zazuko.com/schema/wheelArrangement> <http://editor.zazuko.com/schema/example> "<http://www.example.org/engine/1234> <http://localhost:8080/schema/wheelArangement> \"12334\"" .
 <http://editor.zazuko.com/schema/wheelArrangement> <http://purl.org/dc/terms/modified> "2018-07-08T19:54:35.313Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://editor.zazuko.com/schema/wheelArrangement> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/RailroadEngine> .
