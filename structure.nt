@@ -1,5 +1,4 @@
-_:b1 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:b2 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:b1 <http://schema.org/version> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://editor.zazuko.com/domain/> <http://schema.org/hasPart> <http://editor.zazuko.com/domain/CargoHandlersDomain> .
 <http://editor.zazuko.com/domain/> <http://schema.org/hasPart> <http://editor.zazuko.com/domain/CarriersDomain> .
 <http://editor.zazuko.com/domain/> <http://schema.org/hasPart> <http://editor.zazuko.com/domain/CustomsDomain> .
