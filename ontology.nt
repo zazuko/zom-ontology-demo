@@ -262,6 +262,10 @@
 <http://editor.zazuko.com/schema/IOLIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://editor.zazuko.com/schema/iolIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "The Internet of Logistics Identifier for a connected company." .
 <http://editor.zazuko.com/schema/iolIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "IOL Identifier" .
+<http://editor.zazuko.com/schema/latitude> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/RailPort> .
+<http://editor.zazuko.com/schema/latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://editor.zazuko.com/schema/latitude> <http://www.w3.org/2000/01/rdf-schema#comment> "The latitude of the object" .
+<http://editor.zazuko.com/schema/latitude> <http://www.w3.org/2000/01/rdf-schema#label> "latitude" .
 <http://editor.zazuko.com/schema/length> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Package> .
 <http://editor.zazuko.com/schema/length> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Truck> .
 <http://editor.zazuko.com/schema/length> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
@@ -292,6 +296,10 @@
 <http://editor.zazuko.com/schema/LogisticsVehicle> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition of a logistics vehicle. Here is one from businessdictionary.com - Document(s) prepared by a consignor or shipper to certify that the dangerous goods being transported have been packaged, labeled, and declared in accordance with the standard international shipping regulations." .
 <http://editor.zazuko.com/schema/LogisticsVehicle> <http://www.w3.org/2000/01/rdf-schema#label> "Logistics Vehicle" .
 <http://editor.zazuko.com/schema/LogisticsVehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://editor.zazuko.com/schema/LogisticsObject> .
+<http://editor.zazuko.com/schema/longitude> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/RailPort> .
+<http://editor.zazuko.com/schema/longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://editor.zazuko.com/schema/longitude> <http://www.w3.org/2000/01/rdf-schema#comment> "Longitude" .
+<http://editor.zazuko.com/schema/longitude> <http://www.w3.org/2000/01/rdf-schema#label> "longitude" .
 <http://editor.zazuko.com/schema/lux> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Light> .
 <http://editor.zazuko.com/schema/lux> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#float> .
 <http://editor.zazuko.com/schema/lux> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -402,6 +410,7 @@
 <http://editor.zazuko.com/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#label> "Quantity of packages" .
 <http://editor.zazuko.com/schema/RailPort> <http://purl.org/dc/terms/modified> "2018-07-08T20:29:53.436Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://editor.zazuko.com/schema/RailPort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://editor.zazuko.com/schema/RailPort> <http://www.w3.org/2000/01/rdf-schema#comment> "This represents the class of a rail port. Should be used..." .
 <http://editor.zazuko.com/schema/RailPort> <http://www.w3.org/2000/01/rdf-schema#description> "Class for large railway ports" .
 <http://editor.zazuko.com/schema/RailPort> <http://www.w3.org/2000/01/rdf-schema#label> "RailPort" .
 <http://editor.zazuko.com/schema/RailroadEngine> <http://purl.org/dc/terms/modified> "2018-07-08T19:46:57.279Z"^^<http://www.w3.org/2001/XMLSchema#date> .
