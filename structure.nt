@@ -1,5 +1,6 @@
-_:b1 <http://schema.org/version> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:b3 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:b395_b1 <http://schema.org/version> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:b395_b3 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "1" .
 <http://editor.zazuko.com/domain/> <http://schema.org/hasPart> <http://editor.zazuko.com/domain/CargoHandlersDomain> .
 <http://editor.zazuko.com/domain/> <http://schema.org/hasPart> <http://editor.zazuko.com/domain/CarriersDomain> .
 <http://editor.zazuko.com/domain/> <http://schema.org/hasPart> <http://editor.zazuko.com/domain/CustomsDomain> .
@@ -45,6 +46,7 @@ _:b3 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer>
 <http://editor.zazuko.com/domain/org/PanalpinaAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
 <http://editor.zazuko.com/domain/org/PanalpinaAB> <http://www.w3.org/2000/01/rdf-schema#label> "Panalpina AB" .
 <http://editor.zazuko.com/domain/RailDomain> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://editor.zazuko.com/domain/RailDomain> <http://schema.org/hasPart> <http://editor.zazuko.com/schema/BowelCancer> .
 <http://editor.zazuko.com/domain/RailDomain> <http://schema.org/hasPart> <http://editor.zazuko.com/schema/RailPort> .
 <http://editor.zazuko.com/domain/RailDomain> <http://schema.org/hasPart> <http://editor.zazuko.com/schema/RailroadEngine> .
 <http://editor.zazuko.com/domain/RailDomain> <http://schema.org/hasPart> <http://editor.zazuko.com/schema/RailroadWaggon> .
