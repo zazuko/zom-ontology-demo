@@ -1,3 +1,7 @@
+<http://editor.zazuko.com/schema/10Krun> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/BowelCancer> .
+<http://editor.zazuko.com/schema/10Krun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://editor.zazuko.com/schema/10Krun> <http://www.w3.org/2000/01/rdf-schema#comment> "10krun" .
+<http://editor.zazuko.com/schema/10Krun> <http://www.w3.org/2000/01/rdf-schema#label> "10krun" .
 <http://editor.zazuko.com/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://editor.zazuko.com/schema/accelerometer> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/TrackUpdate> .
 <http://editor.zazuko.com/schema/accelerometer> <http://schema.org/rangeIncludes> <http://editor.zazuko.com/schema/Accelerometer> .
@@ -80,6 +84,9 @@
 <http://editor.zazuko.com/schema/batteryVoltage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://editor.zazuko.com/schema/batteryVoltage> <http://www.w3.org/2000/01/rdf-schema#description> "A device battery reading in Voltage submitted as a track update." .
 <http://editor.zazuko.com/schema/batteryVoltage> <http://www.w3.org/2000/01/rdf-schema#label> "Battery Voltage" .
+<http://editor.zazuko.com/schema/BowelCancer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://editor.zazuko.com/schema/BowelCancer> <http://www.w3.org/2000/01/rdf-schema#comment> "Definition of bowel cancer" .
+<http://editor.zazuko.com/schema/BowelCancer> <http://www.w3.org/2000/01/rdf-schema#label> "BowelCancer" .
 <http://editor.zazuko.com/schema/buyer> <http://schema.org/domainIncludes> <http://editor.zazuko.com/schema/Consignment> .
 <http://editor.zazuko.com/schema/buyer> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
 <http://editor.zazuko.com/schema/buyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
