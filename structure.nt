@@ -1,3 +1,4 @@
+<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "1" .
 <https://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "1" .
 <https://editor.zazuko.com/domain/> <http://schema.org/hasPart> <https://editor.zazuko.com/domain/CargoHandlersDomain> .
 <https://editor.zazuko.com/domain/> <http://schema.org/hasPart> <https://editor.zazuko.com/domain/CarriersDomain> .
@@ -23,6 +24,7 @@
 <https://editor.zazuko.com/domain/CustomsDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A domain is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Customs Domain, you will find data typically from the following documents; TBD." .
 <https://editor.zazuko.com/domain/CustomsDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Customs Domain" .
 <https://editor.zazuko.com/domain/ForwarderDomain> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://editor.zazuko.com/domain/ForwarderDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/Forwarder> .
 <https://editor.zazuko.com/domain/ForwarderDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/HAWB> .
 <https://editor.zazuko.com/domain/ForwarderDomain> <http://schema.org/hasPart> <https://editor.zazuko.com/schema/MAWB> .
 <https://editor.zazuko.com/domain/ForwarderDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
