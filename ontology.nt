@@ -1,3 +1,4 @@
+<http://schema.org/geo> <http://schema.org/domainIncludes> <https://editor.zazuko.com/domain/TrackUpdate> .
 <https://editor.zazuko.com/schema/10Krun> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/BowelCancer> .
 <https://editor.zazuko.com/schema/10Krun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://editor.zazuko.com/schema/10Krun> <http://www.w3.org/2000/01/rdf-schema#comment> "10krun" .
@@ -208,8 +209,11 @@
 <https://editor.zazuko.com/schema/forwarder> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/ShippersInstruction> .
 <https://editor.zazuko.com/schema/forwarder> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
 <https://editor.zazuko.com/schema/forwarder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/Forwarder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://editor.zazuko.com/schema/Forwarder> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents companies or individuals responsible for the transportation of goods on behalf of a shipper." .
 <https://editor.zazuko.com/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#description> "The party undertaking the freight forwarding of these consignments." .
 <https://editor.zazuko.com/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#label> "forwarder" .
+<https://editor.zazuko.com/schema/Forwarder> <http://www.w3.org/2000/01/rdf-schema#label> "Forwarder" .
 <https://editor.zazuko.com/schema/grossWeight> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Package> .
 <https://editor.zazuko.com/schema/grossWeight> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/RailroadWaggon> .
 <https://editor.zazuko.com/schema/grossWeight> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/ShippersInstruction> .
@@ -217,6 +221,10 @@
 <https://editor.zazuko.com/schema/grossWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://editor.zazuko.com/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross weight (mass) of these consignments which includes the weight of packaging but which excludes the weight of any transport equipment." .
 <https://editor.zazuko.com/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#label> "grossWeight" .
+<https://editor.zazuko.com/schema/handlesShipment> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Forwarder> .
+<https://editor.zazuko.com/schema/handlesShipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/handlesShipment> <http://www.w3.org/2000/01/rdf-schema#comment> "Link to the shipments they're responsible for." .
+<https://editor.zazuko.com/schema/handlesShipment> <http://www.w3.org/2000/01/rdf-schema#label> "handlesShipment" .
 <https://editor.zazuko.com/schema/handoverTo> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
 <https://editor.zazuko.com/schema/handoverTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://editor.zazuko.com/schema/HAWB> <http://purl.org/dc/terms/modified> "2018-02-13"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -468,13 +476,13 @@
 <https://editor.zazuko.com/schema/seller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://editor.zazuko.com/schema/seller> <http://www.w3.org/2000/01/rdf-schema#description> "The Seller party for this consignment." .
 <https://editor.zazuko.com/schema/seller> <http://www.w3.org/2000/01/rdf-schema#label> "Buyer" .
-<https://editor.zazuko.com/schema/ShippersInstruction> <https://editor.zazuko.com/schema/classStatus> <https://editor.zazuko.com/schema/Draft> .
-<https://editor.zazuko.com/schema/ShippersInstruction> <https://editor.zazuko.com/schema/example> "# A shippers instruction in real life\n\n```\n@prefix tcf <http://localhost:8080/schema/> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\n<instruction> a tcf:ShippersInstruction ;\n  rdfs:label \"This is a shippers instruction\" .\n```\n" .
 <https://editor.zazuko.com/schema/ShippersInstruction> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://editor.zazuko.com/schema/ShippersInstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://editor.zazuko.com/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition. Here is one from shippingsolutions.com - The Shipper's Letter of Instruction helps to convey specific instructions from the exporter to his agent, usually an international freight forwarder." .
 <https://editor.zazuko.com/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#label> "Shippers Instruction" .
 <https://editor.zazuko.com/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://editor.zazuko.com/schema/LogisticsObject> .
+<https://editor.zazuko.com/schema/ShippersInstruction> <https://editor.zazuko.com/schema/classStatus> <https://editor.zazuko.com/schema/Draft> .
+<https://editor.zazuko.com/schema/ShippersInstruction> <https://editor.zazuko.com/schema/example> "# A shippers instruction in real life\n\n```\n@prefix tcf <http://localhost:8080/schema/> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\n<instruction> a tcf:ShippersInstruction ;\n  rdfs:label \"This is a shippers instruction\" .\n```\n" .
 <https://editor.zazuko.com/schema/size> <http://purl.org/dc/terms/modified> "2018-06-06T19:26:33.400Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://editor.zazuko.com/schema/size> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/EmptyGood> .
 <https://editor.zazuko.com/schema/size> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
@@ -593,13 +601,13 @@
 <https://editor.zazuko.com/schema/weight> <http://www.w3.org/2000/01/rdf-schema#label> "weight" .
 <https://editor.zazuko.com/schema/weight> <http://www.w3.org/2004/02/skos/core#example> "<http://post.fake/consignment/12> <https://editor.zazuko.com/schema/weight> \"12\"^^xsd:decimal;" .
 <https://editor.zazuko.com/schema/weight> <http://www.w3.org/2004/02/skos/core#note> "The **weight** …"^^<http://media-type.described.at/text/markdown> .
-<https://editor.zazuko.com/schema/wheelArrangement> <https://editor.zazuko.com/schema/example> "<http://www.example.org/engine/1234> <http://localhost:8080/schema/wheelArangement> \"12334\"" .
 <https://editor.zazuko.com/schema/wheelArrangement> <http://purl.org/dc/terms/modified> "2018-07-08T19:54:35.313Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://editor.zazuko.com/schema/wheelArrangement> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/RailroadEngine> .
 <https://editor.zazuko.com/schema/wheelArrangement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://editor.zazuko.com/schema/wheelArrangement> <http://www.w3.org/2000/01/rdf-schema#comment> "Wheel arrangement in UIC classification, also known as German classification or German system." .
 <https://editor.zazuko.com/schema/wheelArrangement> <http://www.w3.org/2000/01/rdf-schema#description> "Wheel arrangement in UIC classification" .
 <https://editor.zazuko.com/schema/wheelArrangement> <http://www.w3.org/2000/01/rdf-schema#label> "wheelArrangement" .
+<https://editor.zazuko.com/schema/wheelArrangement> <https://editor.zazuko.com/schema/example> "<http://www.example.org/engine/1234> <http://localhost:8080/schema/wheelArangement> \"12334\"" .
 <https://editor.zazuko.com/schema/width> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/Package> .
 <https://editor.zazuko.com/schema/width> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
 <https://editor.zazuko.com/schema/width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -620,4 +628,3 @@
 <https://editor.zazuko.com/schema/z_gvt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://editor.zazuko.com/schema/z_gvt> <http://www.w3.org/2000/01/rdf-schema#description> "A device accelerometer z-axis reading submitted as a track update." .
 <https://editor.zazuko.com/schema/z_gvt> <http://www.w3.org/2000/01/rdf-schema#label> "Z-axis acceleration" .
-<http://schema.org/geo> <http://schema.org/domainIncludes> <https://editor.zazuko.com/domain/TrackUpdate> .
