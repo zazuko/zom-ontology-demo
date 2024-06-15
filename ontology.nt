@@ -202,6 +202,10 @@
 <https://editor.zazuko.com/schema/etd-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://editor.zazuko.com/schema/etd-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel estimates it will depart from a specified location, as per port section standards." .
 <https://editor.zazuko.com/schema/etd-Location> <http://www.w3.org/2000/01/rdf-schema#label> "ETD-Location" .
+<https://editor.zazuko.com/schema/fdfds> <http://schema.org/domainIncludes> <https://editor.zazuko.com/schema/RailroadEngine> .
+<https://editor.zazuko.com/schema/fdfds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://editor.zazuko.com/schema/fdfds> <http://www.w3.org/2000/01/rdf-schema#comment> "sdf" .
+<https://editor.zazuko.com/schema/fdfds> <http://www.w3.org/2000/01/rdf-schema#label> "fdfds" .
 <https://editor.zazuko.com/schema/FlightManifest> <http://purl.org/dc/terms/modified> "2018-02-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://editor.zazuko.com/schema/FlightManifest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://editor.zazuko.com/schema/FlightManifest> <http://www.w3.org/2000/01/rdf-schema#comment> "TBD" .
