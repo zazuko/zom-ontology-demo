@@ -1,4 +1,4 @@
-<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "1" .
+<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "2" .
 <https://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "1" .
 <https://editor.zazuko.com/domain/> <http://schema.org/hasPart> <https://editor.zazuko.com/domain/CargoHandlersDomain> .
 <https://editor.zazuko.com/domain/> <http://schema.org/hasPart> <https://editor.zazuko.com/domain/CarriersDomain> .
